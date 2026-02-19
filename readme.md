@@ -2,6 +2,7 @@
 
 Le cadastre de France est un ensemble de plans et fichiers administratifs qui recense toutes les propriétés foncières situées dans chaque commune française, et qui en consigne la valeur afin de servir de base de calcul à certains impôts.
 
+<<<<<<< HEAD
 Il sert également un très grand nombre de politiques publiques concernant l'aménagement du territoire, que ce soit urbain, rural, industriel ou commercial. 
 
 ## Histoire
@@ -44,3 +45,4 @@ La représentation au plan cadastral d'une construction n'est en aucun cas corr�
 Le cadastre français est divisé en communes, chaque commune étant elle-même subdivisée en sections, et chaque section en feuilles. Sur chaque feuille figure une ou plusieurs parcelles, unité de la propriété foncière.
 
 Le tableau d'assemblage (TA) communal permet d'observer l'assemblage des sections de la commune considérée, et ainsi de repérer quelle est la dénomination de la section utile à l'usager. Seuls les éléments principaux permettant un repérage général sont reportés sur ce tableau d'assemblage. Il est absolument nécessaire d'obtenir le nom de la section afin d'avoir accès aux différentes parcelles.
+
