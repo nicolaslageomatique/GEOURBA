@@ -4,27 +4,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Cadastre</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>INTEROPERABILITE - Cadastre</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
         <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Cadastre</a>
+                <a class="navbar-brand" href="..">Cadastre</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,22 +35,22 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="nav-item">
-                                <a href="." class="nav-link active" aria-current="page">Note et données</a>
+                                <a href=".." class="nav-link">Note et données</a>
                             </li>
                             <li class="nav-item">
-                                <a href="cadastre/" class="nav-link">Cadastre</a>
+                                <a href="../cadastre/" class="nav-link">Cadastre</a>
                             </li>
                             <li class="nav-item">
-                                <a href="formats/" class="nav-link">Formats de données</a>
+                                <a href="../formats/" class="nav-link">Formats de données</a>
                             </li>
                             <li class="nav-item">
-                                <a href="ign/" class="nav-link">IGN</a>
+                                <a href="../ign/" class="nav-link">IGN</a>
                             </li>
                             <li class="nav-item">
-                                <a href="interoperabilite/" class="nav-link">INTEROPERABILITE</a>
+                                <a href="./" class="nav-link active" aria-current="page">INTEROPERABILITE</a>
                             </li>
                             <li class="nav-item">
-                                <a href="sources/" class="nav-link">Les sources géomatiques en urbanisme.</a>
+                                <a href="../sources/" class="nav-link">Les sources géomatiques en urbanisme.</a>
                             </li>
                         </ul>
 
@@ -61,12 +61,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../ign/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="cadastre/" class="nav-link">
+                                <a rel="next" href="../sources/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -88,8 +88,20 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#note-et-donnees" class="nav-link">Note et données</a>
+            <li class="nav-item" data-bs-level="1"><a href="#interoperabilite" class="nav-link">INTEROPERABILITE</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#webservices" class="nav-link">WEBSERVICES</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#le-catalogage-metadonnees" class="nav-link">Le Catalogage / Métadonnées</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#extract-transform-load" class="nav-link">Extract Transform Load</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -97,18 +109,86 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="note-et-donnees">Note et données</h1>
+<h1 id="interoperabilite">INTEROPERABILITE</h1>
+<p><strong><em>20/02/2026 / Thomas</em></strong></p>
+<h2 id="webservices">WEBSERVICES</h2>
+<p>Avantage de l’utilisation des Web Services :</p>
 <ul>
-<li>
-<p><a href="cadastre/">Cadastre</a></p>
-</li>
-<li>
-<p><a href="ign/">IGN</a></p>
-</li>
-<li>
-<p><a href="sources/">Sources</a></p>
-</li>
-</ul></div>
+<li>Mise à disposition globale et contrôlée des données spatiales</li>
+<li>Un temps de chargement « côté client » performant</li>
+<li>Une interopérabilité entre les outils SIG</li>
+</ul>
+<h3 id="wms">WMS</h3>
+<p>Une URL renvoie une image.</p>
+<pre><code>https://data.geopf.fr/wms-r/wms?
+SERVICE=WMS&amp;
+VERSION=1.3.0&amp;
+REQUEST=GetMap&amp;
+BBOX=-328617.5056973813334%2C4708315.165103063919%2C373275.0382083536824%2C6122175.265506482683&amp;CRS=EPSG%3A3857&amp;
+WIDTH=418&amp;
+HEIGHT=843&amp;
+LAYERS=BDTOPO-DIFF-HYDROGRAPHIE&amp;
+STYLES=&amp;
+FORMAT=image%2Fpng&amp;
+DPI=96&amp;
+MAP_RESOLUTION=96&amp;
+FORMAT_OPTIONS=dpi%3A96&amp;
+TRANSPARENT=TRUE
+</code></pre>
+<h3 id="wmts">WMTS</h3>
+<p>Une URL renvoie une imagette de taille fixe 256 par 256 pixels.</p>
+<pre><code>https://data.geopf.fr/wmts?
+SERVICE=WMTS&amp;
+REQUEST=GetTile&amp;
+VERSION=1.0.0&amp;
+LAYER=GEOGRAPHICALGRIDSYSTEMS.EDUGEO.TOULOUSE1948&amp;
+STYLE=normal&amp;
+FORMAT=image%2Fpng&amp;
+TILEMATRIXSET=PM_6_16&amp;
+TILEMATRIX=12&amp;
+TILEROW=1498&amp;
+TILECOL=2063
+</code></pre>
+<h3 id="wfs">WFS</h3>
+<h3 id="tms">TMS</h3>
+<p>Page puis colonne puis ligne puis image.</p>
+<pre><code>https://tile.openstreetmap.org/
+8/
+128/
+86.png
+</code></pre>
+<h2 id="le-catalogage-metadonnees">Le Catalogage / Métadonnées</h2>
+<p>Axe de qualité de notre discipline !</p>
+<p>La notion de diffusion de donnée a été confirmée par la possibilité de partager des données de qualité.</p>
+<ul>
+<li>Des données de qualité =&gt; exhaustives, propres et géométriquement correctes</li>
+<li>Des données documentées =&gt; fiches de métadonnées suivant des normes de rédaction (ISO 19115 / 19139, INSPIRE, DCAT)</li>
+<li>Des données diffusables =&gt; catalogue de données / métadonnées, Catalogue Service Web CSW</li>
+<li>Des données réutilisables =&gt; accessibles, ouvertes</li>
+</ul>
+<h2 id="extract-transform-load">Extract Transform Load</h2>
+<p>Un outils fiable =&gt; le traitement automatisé</p>
+<p><img alt="" src="https://supports.idgeo.fr/cpgeom/2025-2027/A2-Interoperabilite/res/interop_etl.png" /></p>
+<ul>
+<li>Extact : le processus d'extraction doit convertir les données dans un format adapté à une transformation ultérieure</li>
+<li>Transform : Nettoyage, Filtrage, Enrichissement, Division, (spliting), Regroupement.</li>
+<li>Load : Les données transformées peuvent être chargé dans la base cible.</li>
+</ul>
+<h3 id="spatial-etl">Spatial ETL</h3>
+<p>L’ETL Spatial, aussi connu sous l’appellation GTL (« Geographic Transformation and Load »), propose les mêmes fonctionnalités que l’ETL, appliquées à la manipulation des données géographiques.</p>
+<p>L’ETL spatial permet :
+- De synchroniser des bases entre-elles,
+- De traduire des jeux de données géographiques d’un format vers un autre (OGR / GDAL),
+- De restructurer complètement le modèle de données et l’adapter au modèle cible, à l’aide d’unités de traitement (transformers chez FME) qui modifient la structure, les attributs et la géométrie des entités.</p>
+<h3 id="transformations-geospatiales-communes">Transformations géospatiales communes</h3>
+<ul>
+<li>Reprojection : possibilité de convertir des données spatiales entre un système de coordonnées et un autre.</li>
+<li>Transformations spatiales : possibilité de modéliser des interactions spatiales et de calculer des prédicats spatiaux.</li>
+<li>Transformations topologiques : possibilité de créer des relations topologiques entre des ensembles de données disparates.</li>
+<li>Re-symbolisation : la possibilité de modifier les caractéristiques cartographiques d'une entité, comme la couleur ou le style de trait.</li>
+<li>Géocodage : possibilité de convertir des attributs de données tabulaires en données spatiales.</li>
+</ul>
+<p><img alt="" src="https://supports.idgeo.fr/cpgeom/2025-2027/A2-Interoperabilite/res/ETL_traitement_img_Sat_drawio_1.png" /></p></div>
             </div>
         </div>
 
@@ -116,13 +196,13 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -187,8 +267,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.6.1
-Build Date UTC : 2026-02-20 15:22:45.392102+00:00
--->
